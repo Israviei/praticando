@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="POST" autocomplete="on">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <section>
+          <label for="inome">Nome:</label>
+          <input type="text" name="nome" id="inome" placeholder="Nome Completo" required autocomplete="name">
+        </section>
+        <section>
+          <label for="iemail">E-mail:</label>
+          <input type="email" name="email" id="iemail" placeholder="Seu E-mail" required autocomplete="email">
+        </section>
+        <section>
+          <label for="itel">Telefone:</label>
+          <input type="tel" name="tel" id="itel" placeholder="+ xx (xx) x-xxxx-xxxx" required>
+        </section>
+      </fieldset>
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+</body>
+</html>
