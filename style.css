@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+label {
+  display: inline-block;
+  width: 90px;
+}
+
+section {
+  margin: 20px 0px;
+}
+
+div {
+  margin: 20px;
+}
